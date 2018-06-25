@@ -53,7 +53,7 @@ dkms.conf
 
 
 # ignore folders
-MDNTutorials/*
+MDNTutorials/
 PersonalWebsite/*
 MDNBouncingBall/*
 NewFolder/
