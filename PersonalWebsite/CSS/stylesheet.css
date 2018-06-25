@@ -1,0 +1,152 @@
+
+/* Reset */
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        vertical-align: baseline;
+        background: transparent;
+        font-size: 0;
+    }
+
+p {
+    font-size: 20px;
+}
+
+a {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+/* ********
+ * Global *
+ *********/
+html {
+    background-color: #202020;
+    font-size: 20px;
+    color: #202020;
+    /*background-image: url("../images/Geritz%20Logo%20Blue.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, auto;*/
+}
+
+/* ******** 
+ * Header *
+ *********/
+#topBanner img {
+    max-width:50%;
+    max-height:50%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+/* ****************
+ * Navigation Bar *
+ *****************/
+#topNavBar{
+    min-width: 600px;
+    max-width: 810px;
+    background: #e4e4ed;
+    margin-left: 20px;
+}
+
+#topNavBar ul {
+    list-style: none;
+    padding-left: 10px;
+}
+
+#topNavBar ul li {
+    display: inline-block;
+    font-size: 24px;
+    transition: font-size 0.5s, background-color 0.5s, text-decoration-color 0s;
+    transition-delay: 0s;
+    padding: 10px;
+} 
+
+#topNavBar ul li:hover {
+    background: #c3c3c3;
+    color: #ff0000;
+}
+
+#topNavBar ul li a {
+    text-decoration-line: none; /*Remove underline*/
+    color: #202020;
+    font-size: 24px;
+    
+} 
+
+/* ************** 
+ * Main Content *
+ ***************/
+
+#pageContent {
+    background: #e5e5ed;
+    padding: 0px;
+    content:"";
+    clear: both;
+    display: table;
+    margin-left: 20px;
+}
+
+#pageContent ul {
+    list-style: none;
+}
+
+#pageContent li {
+    display: inline-block;
+}
+
+#pc_authorPhoto {
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px
+}
+
+#pc_authorBio {
+    max-width: 800px;
+    padding-right: 10px;
+}
+
+#pc_links {
+    min-width: 800px;    
+    padding-left: 10px;
+}
+
+#pc_links {
+    padding-left: 10px;
+}
+/* ********
+ * footer *
+ *********/
+footer {
+    color: azure;
+    text-align: center;
+}
+
+/* *****************
+ * Utility classes *
+ ******************/
+
+.toprelcentered {
+    position:relative;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.centerFlex {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+/* Copyright 2018 by Spencer Moran. All rights reserved. */
+
+.thumbnail {
+    width: 24px;
+    height: 24px;
+}
