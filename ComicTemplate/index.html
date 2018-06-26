@@ -1,5 +1,5 @@
 <!Doctype html>
-<html lang= "en-US" id='red-screen'>
+<html lang= "en-US">
     <head>
         <meta charset="utf-8">
         <meta name="author" content="Spencer Moran">
@@ -19,12 +19,43 @@
         <!--flex container for central content-->
         <div id='flex-wrapper'>
             <!--main-->
-            <main>                
+            <main>
+                <div class="page-nav-bar">
+                    <a href="index.html">&lt;--Prev</a> 
+                    <div></div><!-- grid spacer-->
+                    <a href="index.html">Next--&gt;</a>                    
+                </div>
+                
                 <article>
-                    <h1 id='delay'>You see this? This is what you've done to me!</h1>
-                    <img class="animated" src="images/GeritzLogoOrange.png" alt="a comic page: something stupid just happened." title="Or some other suitably moronic image.">                    
-                    <button>Change user</button>
-                </article>                
+                    <div class='article-header'>
+                        <div class='article-date-box'>
+                            <p>June</p>
+                            <p>26</p>
+                            <p>2018</p>
+                        </div>
+                        <div class='article-title-box'>
+                            <h2>An article Title</h2>
+                            <p>Something beneath the chapter title.</p>
+                        </div>
+                    </div>
+                                        
+                    <div class="article-command">
+                        <h3>Some command:</h3>
+                        <p>Hey, go do something already!</p>
+                    </div>
+                    
+                    <p>That wasn't a very nice thing to say. Oh well, at least you tried. But if you're not too busy failing at making first contact with some alien race from beyond the veil then I'm afraid you might just have to think fast pretty soon.</p>
+                    
+                    <img class="animated" src="images/GeritzLogoOrange.png" alt="a comic page: something stupid just happened." title="Or some other suitably moronic image.">      
+                    
+                    <p>Something else is happening now beneath the fold. Do you care enough to scroll down?</p>
+                </article>
+                
+                <div class="page-nav-bar">
+                    <a href="index.html">&lt;--Prev</a> 
+                    <div></div><!-- grid spacer-->
+                    <a href="index.html">Next--&gt;</a>                    
+                </div>
             </main>
             <!--Sidebar-->
             <nav>
@@ -76,7 +107,7 @@
             </nav>
         </div>
         <!--Footer-->
-        <footer>Some random footer content. Copyright stuff, whatever.</footer>      
+        <footer>This is an open-source template for webcomic production.</footer>      
         
         <!--Active Scripts-->
         <script src="scripts/main.js"></script>            

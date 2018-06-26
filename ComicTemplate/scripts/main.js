@@ -5,7 +5,7 @@ myHeading.textContent = 'Hello world!';
 var myButton = document.querySelector('button');
 
 if(!localStorage.getItem('name')) {
-    setUserName();    
+    //setUserName();    
 } else {
     var storedName = localStorage.getItem('name');
     myHeading.textContent = 'Hello ' + storedName;
@@ -20,3 +20,4 @@ function setUserName(){
     localStorage.setItem('name', myName);
     myHeading.textContent = 'Hello ' + myName;
 }
+

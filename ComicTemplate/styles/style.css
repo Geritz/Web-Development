@@ -42,6 +42,8 @@ article {
     border-radius: 10px;
     background-color:#f7f2ed;
     padding:10px;
+    margin-bottom:10px;
+    font-size:14px;
 }
 
 nav {
@@ -75,7 +77,7 @@ h1 {
 }
 
 #red-screen{    
-    transition: opacity 5s linear 0s, background-color 3s linear 2s;
+    transition: opacity 1s linear 0s, background-color 1s linear 0s;
 }
 
 #red-screen:hover {
@@ -94,7 +96,7 @@ img {
     border-radius: 10px;
     background-color:#f7f2ed;
     width:100%;
-    height:auto%;
+    height:auto;
     margin-bottom: 10px;
     padding: 10px;
     display: block;    
@@ -109,6 +111,82 @@ img {
     margin:0;
     padding:0;
     color: grey;
+}
+
+.page-nav-bar {
+    border-radius: 10px;
+    background-color:#f7f2ed;    
+    height:auto;
+    margin-bottom: 10px;
+    margin-right: 0;
+    padding: 10px;
+    display:grid;
+    grid-template-columns: 50px auto 50px;
+}
+
+.page-nav-bar>a {
+    color:purple;    
+    font-size:14px;
+    font-weight: 600;
+}
+.article-header {
+    display:flex;
+}
+
+.article-date-box {
+    width: 70px;
+    height: auto;    
+    background-color:rosybrown;
+    
+}
+.article-date-box p {
+    font-weight: bold;    
+    margin:0 auto;
+    padding:0;
+    text-align: center;
+}
+.article-date-box p:nth-child(2) {
+    font-size: 24px;
+}
+
+.article-title-box {    
+    margin:0;
+    padding:0;
+    padding-left:10px;
+    width:100%;
+}
+.article-title-box>h2 {
+    border-bottom: 1px dotted grey;
+    width:inherit;    
+    font-size: 24px;
+    margin:0;
+}
+.article-title-box>p {
+    margin:0;
+    padding-top:2px;
+    font-size: 14px;    
+}
+
+.article-command {
+    background-color:burlywood;
+    border-radius: 10px;
+    padding:2px;
+    margin:20px 30px;
+    min-width: 400px;    
+}
+
+.article-command h3 {
+    font-size: 14px;
+    text-align: center;
+    padding:4px;
+}
+.article-command p {
+    background-color:bisque;
+    border-radius: 10px;
+    padding:8px 4px;
+    margin:0;
+    font-style:italic;
+    font-size:14px;
 }
 
 a {
