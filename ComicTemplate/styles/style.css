@@ -31,6 +31,7 @@ header {
     display:flex;    
 }
 
+
 main {
     margin:10px auto;    
     width: 100%;    
@@ -60,6 +61,26 @@ h1 {
     color: #00539F;    
     font-size: 60px;
     text-align: center;    
+}
+
+#delay {                
+    transition: font-size 1s linear 2s, background-color 5s, color 2s linear 1s, opacity 4s ease-in 2s;
+}
+
+#delay:hover{
+    font-size: 36px;
+    background-color:blue;
+    color:red;
+    opacity: 0;
+}
+
+#red-screen{    
+    transition: opacity 5s linear 0s, background-color 3s linear 2s;
+}
+
+#red-screen:hover {
+    opacity:0.1;
+    background-color:red    
 }
 
 img {

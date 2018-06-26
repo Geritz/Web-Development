@@ -1,5 +1,5 @@
 <!Doctype html>
-<html lang= "en-US">
+<html lang= "en-US" id='red-screen'>
     <head>
         <meta charset="utf-8">
         <meta name="author" content="Spencer Moran">
@@ -11,7 +11,8 @@
         <link rel="stylesheet" href="styles/style.css">
     </head>
     
-    <body>        
+    <body>
+        <div> <!--effect div-->
         <!-- header-->
         <header>
             <a href="index.html"><img src="images/HeaderTitle.png" alt="A title with some text you cannot read."></a>            
@@ -21,8 +22,8 @@
             <!--main-->
             <main>                
                 <article>
-                    <h1>You see this? This is what you've done to me. You worthless shithead.</h1>
-                    <img src="images/GeritzLogoOrange.png" alt="a comic page: something stupid just happened." title="Or some other suitably moronic image.">                    
+                    <h1 id='delay'>You see this? This is what you've done to me. You worthless shithead.</h1>
+                    <img class="animated" src="images/GeritzLogoOrange.png" alt="a comic page: something stupid just happened." title="Or some other suitably moronic image.">                    
                     <button>Change user</button>
                 </article>                
             </main>
@@ -79,6 +80,7 @@
         <footer>This page was made as a free template by Spencer Moran for aspiring webcomic artists.</footer>      
         
         <!--Active Scripts-->
-        <script src="scripts/main.js"></script>        
+        <script src="scripts/main.js"></script>
+            </div> <!--Terminator for red screen div -->
     </body>
 </html>
