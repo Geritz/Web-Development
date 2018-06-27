@@ -6,7 +6,7 @@ html {
 
 body {
     width:95%;
-    max-width:1000px;
+    max-width:1200px;
     min-width:480px;
     height:auto;
     margin: 10px auto;
@@ -136,8 +136,9 @@ img {
 .article-date-box {
     width: 70px;
     height: auto;    
-    background-color:rosybrown;
-    
+    background-color:hsl(42, 67%, 88%);
+    border: 3px solid brown;
+    box-shadow: 2px 2px #222222;    
 }
 .article-date-box p {
     font-weight: bold;    
