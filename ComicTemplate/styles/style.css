@@ -214,3 +214,67 @@ a:hover {
 a:active {
 
 }
+
+#effect-container>img{
+    display:block;
+    position:absolute;    
+    top:0;
+    margin: 0 auto;   
+    min-width: 500px;
+    min-height: 500px;
+    max-height: 500px;
+    pointer-events: none;
+}
+
+#effect-container>img:nth-child(n+2){
+    /*-webkit-animation: rotation 30s infinite linear;*/
+    animation: rotation 90s infinite linear;
+}
+
+#effect-container>img:nth-child(2){
+    /*-webkit-animation: rotation 30s infinite linear;*/
+    animation: rotation 30s infinite linear;
+}
+#effect-container>img:nth-child(3){
+    /*-webkit-animation: rotation 30s infinite linear;*/
+    animation: rotation 45s infinite linear;
+}
+#effect-container>img:nth-child(4){
+    /*-webkit-animation: rotation 30s infinite linear;*/
+    animation: rotation 50s infinite linear;
+}
+#effect-container>img:nth-child(5){
+    /*-webkit-animation: rotation 1s infinite linear;*/
+    animation: rotation 15s infinite linear;
+}
+#effect-container>img:nth-child(6){
+    /*-webkit-animation: rotation 1s infinite linear;*/
+    animation: rotation 300s infinite linear;
+}
+#effect-container>img:nth-child(7){
+    /*-webkit-animation: rotation 1s infinite linear;*/
+    animation: rotation 23s infinite linear;
+}
+#effect-container>img:nth-child(8){
+    /*-webkit-animation: rotation 1s infinite linear;*/
+    animation: rotation 40s infinite linear;
+}
+
+
+/*
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}*/
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
